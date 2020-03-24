@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2020-03-24T11:58:18.641Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" version="12.9.1" etag="I4-lz4ar1tWjMqu92SVo" type="github"><diagram id="JuNn_vYBnM_KgY5r-Gk6">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-03-24T12:10:50.162Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="jumk7P4DlbF7GVKUnED7" version="12.9.1" type="github">
+  <diagram id="JuNn_vYBnM_KgY5r-Gk6" name="Page-1">
+    <mxGraphModel dx="2062" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BwaWRS_JmhclIeOnP8dX-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="390" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BwaWRS_JmhclIeOnP8dX-2" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;Use cases&lt;br&gt;Impressions&lt;br&gt;Confusion&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="BwaWRS_JmhclIeOnP8dX-3" value="&lt;font style=&quot;font-size: 20px&quot;&gt;MLOps Customer&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="15" y="230" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BwaWRS_JmhclIeOnP8dX-4" value="Buy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="394" y="110" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BwaWRS_JmhclIeOnP8dX-5" value="Build" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="394" y="310" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BwaWRS_JmhclIeOnP8dX-6" value="Wait" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="394" y="530" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BwaWRS_JmhclIeOnP8dX-8" value="" style="endArrow=none;html=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="450" as="sourcePoint" />
+            <mxPoint x="790" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BwaWRS_JmhclIeOnP8dX-9" value="" style="endArrow=none;html=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="230" as="sourcePoint" />
+            <mxPoint x="776" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BwaWRS_JmhclIeOnP8dX-10" value="&lt;font style=&quot;font-size: 18px&quot;&gt;DataRobot&lt;br&gt;Databricks&lt;br&gt;Cloud Provider&lt;br&gt;Seldon Deploy&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="460" y="130" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="BwaWRS_JmhclIeOnP8dX-11" value="&lt;span style=&quot;font-size: 18px&quot;&gt;Assemble from open source&lt;br&gt;e.g.&lt;br&gt;&lt;/span&gt;Kubeflow&lt;br&gt;Seldon Core&lt;br&gt;Pachyderm&lt;br&gt;EFK grafana&lt;br&gt;Jenkins" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="460" y="275" width="340" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="BwaWRS_JmhclIeOnP8dX-12" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Deploy can be in Buy or Build&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="709" y="197" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BwaWRS_JmhclIeOnP8dX-13" value="&lt;span style=&quot;font-size: 18px&quot;&gt;Just Seldon Core&lt;br&gt;&lt;/span&gt;Roll your own flask" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="460" y="485" width="340" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
